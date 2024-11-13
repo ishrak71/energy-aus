@@ -1,38 +1,65 @@
-.App {
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+}
+.list {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  text-align: center;
+  padding-bottom: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label-body {
+  border: black solid 1px;
+  background-color: bisque;
+  margin: 10px;
+  width: 700px;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.band {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.festivals {
+  /* border: 0.5px dotted black; */
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(219, 186, 145);
+  border-radius: 10px;
+}
+
+.sort-button {
+  border: brown solid;
+  background-color: brown;
   color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sort-button:hover {
+  border: solid brown;
+  background-color: white;
+  color: brown;
 }
